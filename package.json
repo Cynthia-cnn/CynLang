@@ -1,0 +1,22 @@
+{
+  "name": "cynlang-id",
+  "version": "1.0.0",
+  "description": "Bahasa program eksperimen.dengan Bahasa Indonesia",
+  "main": "src/cynlang.js",
+  "bin": {
+    "cyn": "./src/cynlang.js"
+  },
+  "scripts": {
+    "start": "node src/cynlang.js examples/halo.cyn",
+    "test": "node src/cynlang.js examples/halo.cyn"
+  },
+  "author": "Cynthia",
+  "license": "MIT",
+  "keywords": [
+    "cynlang",
+    "bahasa-indonesia",
+    "toy-language",
+    "interpreter",
+    "ast"
+  ]
+}
